@@ -1,0 +1,53 @@
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\bin\Debug\JoachAutrement.exe.config
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Activités.AjouterActivites.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.AjouterIntervenant.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.FormConnexion.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.FormUsers.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.GestionActivites.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Properties.Resources.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.csproj.GenerateResource.Cache
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\bin\Debug\JoachAutrement.exe
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\bin\Debug\JoachAutrement.pdb
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\bin\Debug\MySql.Data.dll
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.exe
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.pdb
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Activités.VisualisationPDF.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.FiltrePDF.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Eleve.ChoixActivite.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Eleve.RetirerActivite.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Activités.AttributionSalle.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.PDF.ChercherEleve.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.GestionDesComptesUsers.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Prof.GestionEleve.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.PDF.ChercherClasse.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.AjouterProf.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Eleve.AjouterEleve.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.FormAdministrateur.resources
+D:\Archivage JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.csprojResolveAssemblyReference.cache
+D:\Joach'autrement\JoachAutrement\JoachAutrement\bin\Debug\JoachAutrement.exe.config
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.exe
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.pdb
+D:\Joach'autrement\JoachAutrement\JoachAutrement\bin\Debug\JoachAutrement.exe
+D:\Joach'autrement\JoachAutrement\JoachAutrement\bin\Debug\JoachAutrement.pdb
+D:\Joach'autrement\JoachAutrement\JoachAutrement\bin\Debug\itextsharp.dll
+D:\Joach'autrement\JoachAutrement\JoachAutrement\bin\Debug\itextsharp.xml
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.csprojResolveAssemblyReference.cache
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Activités.AjouterActivites.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Activités.AttributionSalle.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.AjouterProf.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Eleve.AjouterEleve.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Eleve.ChoixActivite.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Eleve.RetirerActivite.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.FormAdministrateur.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.GestionDesComptesUsers.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.AjouterIntervenant.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.FormConnexion.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.FormUsers.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.GestionActivites.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.PDF.ChercherClasse.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.PDF.ChercherEleve.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.FiltrePDF.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Activités.VisualisationPDF.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Prof.GestionEleve.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.Properties.Resources.resources
+D:\Joach'autrement\JoachAutrement\JoachAutrement\obj\Debug\JoachAutrement.csproj.GenerateResource.Cache

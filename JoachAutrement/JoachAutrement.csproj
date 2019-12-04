@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C6413696-50DC-4A18-B197-E870686479E2}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>JoachAutrement</RootNamespace>
+    <AssemblyName>JoachAutrement</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="itextsharp">
+      <HintPath>..\..\..\Visual Studio 2012\itextsharp-all-5.5.10\itextsharp.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Activités\Activite.cs" />
+    <Compile Include="Activités\AjouterActivites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activités\AjouterActivites.Designer.cs">
+      <DependentUpon>AjouterActivites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Activités\AttributionSalle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activités\AttributionSalle.designer.cs">
+      <DependentUpon>AttributionSalle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AjouterProf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AjouterProf.Designer.cs">
+      <DependentUpon>AjouterProf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DateJoach.cs" />
+    <Compile Include="DatePDF.cs" />
+    <Compile Include="Eleve\AjouterEleve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eleve\AjouterEleve.Designer.cs">
+      <DependentUpon>AjouterEleve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eleve\ChoixActivite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eleve\ChoixActivite.Designer.cs">
+      <DependentUpon>ChoixActivite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eleve\Classe.cs" />
+    <Compile Include="Eleve\RetirerActivite.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eleve\RetirerActivite.Designer.cs">
+      <DependentUpon>RetirerActivite.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdministrateur.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdministrateur.Designer.cs">
+      <DependentUpon>FormAdministrateur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionDesComptesUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionDesComptesUsers.Designer.cs">
+      <DependentUpon>GestionDesComptesUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inscrit.cs" />
+    <Compile Include="PDF\ChercherClasse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDF\ChercherClasse.Designer.cs">
+      <DependentUpon>ChercherClasse.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PDF\ChercherEleve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDF\ChercherEleve.Designer.cs">
+      <DependentUpon>ChercherEleve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PDF\FiltrePDF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDF\FiltrePDF.Designer.cs">
+      <DependentUpon>FiltrePDF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Intervenant\ClassIntervenant.cs" />
+    <Compile Include="Intervenant\AjouterIntervenant.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intervenant\AjouterIntervenant.Designer.cs">
+      <DependentUpon>AjouterIntervenant.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controleur.cs" />
+    <Compile Include="FormConnexion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormConnexion.Designer.cs">
+      <DependentUpon>FormConnexion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUsers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUsers.Designer.cs">
+      <DependentUpon>FormUsers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Activités\GestionActivites.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Activités\GestionActivites.Designer.cs">
+      <DependentUpon>GestionActivites.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modele.cs" />
+    <Compile Include="PDF\VisualisationPDF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDF\VisualisationPDF.Designer.cs">
+      <DependentUpon>VisualisationPDF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Prof\GestionEleve.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Prof\GestionEleve.Designer.cs">
+      <DependentUpon>GestionEleve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Type.cs" />
+    <Compile Include="Utilisateur.cs" />
+    <EmbeddedResource Include="Activités\AjouterActivites.resx">
+      <DependentUpon>AjouterActivites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Activités\AttributionSalle.resx">
+      <DependentUpon>AttributionSalle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AjouterProf.resx">
+      <DependentUpon>AjouterProf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eleve\AjouterEleve.resx">
+      <DependentUpon>AjouterEleve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eleve\ChoixActivite.resx">
+      <DependentUpon>ChoixActivite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Eleve\RetirerActivite.resx">
+      <DependentUpon>RetirerActivite.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdministrateur.resx">
+      <DependentUpon>FormAdministrateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionDesComptesUsers.resx">
+      <DependentUpon>GestionDesComptesUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intervenant\AjouterIntervenant.resx">
+      <DependentUpon>AjouterIntervenant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormConnexion.resx">
+      <DependentUpon>FormConnexion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUsers.resx">
+      <DependentUpon>FormUsers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Activités\GestionActivites.resx">
+      <DependentUpon>GestionActivites.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDF\ChercherClasse.resx">
+      <DependentUpon>ChercherClasse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDF\ChercherEleve.resx">
+      <DependentUpon>ChercherEleve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDF\FiltrePDF.resx">
+      <DependentUpon>FiltrePDF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDF\VisualisationPDF.resx">
+      <DependentUpon>VisualisationPDF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Prof\GestionEleve.resx">
+      <DependentUpon>GestionEleve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 et x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
