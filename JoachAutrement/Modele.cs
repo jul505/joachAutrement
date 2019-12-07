@@ -417,7 +417,8 @@ namespace JoachAutrement
         #region méthode seconnecter
         public void seconnecter()
         {
-            string myConnectionString = ("Database=joachautrement;Data Source=localhost;User Id=root;Password=root;");
+            string myConnectionString = ("Database=joachautrement;Data Source=localhost;User Id=root;");
+            //string myConnectionString = ("Database=joachautrement;Data Source=localhost;User Id=root;Password=root;");
             myConnection = new MySqlConnection(myConnectionString);
             try // tentative
             {
