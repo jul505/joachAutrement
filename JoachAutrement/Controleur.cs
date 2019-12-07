@@ -389,7 +389,7 @@ namespace JoachAutrement
             }
         }
 
-        public static void modifierActivite(int id, int date, int type, TimeSpan heureDebut, TimeSpan heureFin, string libelle, int nbrPlace, string salle, string description, string codeA, string entete, string pub)
+        public static void modifierActivite(int id, int date, int type, TimeSpan heureDebut, TimeSpan heureFin, string libelle, int nbrPlace, string salle, string description, string entete, string pub)
         {
             try
             {
@@ -406,7 +406,6 @@ namespace JoachAutrement
                         vmodele.DTactivitesgestion.Rows[i]["HEUREFINA"] = heureFin;
                         vmodele.DTactivitesgestion.Rows[i]["NBPLACEA"] = nbrPlace;
                         vmodele.DTactivitesgestion.Rows[i]["SALLE"] = salle;
-                        vmodele.DTactivitesgestion.Rows[i]["CODEA"] = codeA;
                         vmodele.DTactivitesgestion.Rows[i]["ENTETEDESCRIPTIONA"] = entete;
                         vmodele.DTactivitesgestion.Rows[i]["RESTRICTION"] = pub;
                     }
