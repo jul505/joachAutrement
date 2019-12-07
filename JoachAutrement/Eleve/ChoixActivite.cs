@@ -213,7 +213,7 @@ namespace JoachAutrement.Eleve
                             {
                                 if (adejaspectacle == true)
                                     break;
-                                if (activite.Heuredebut < actrechercher.Value.Heurefin && activite.Heurefin < actrechercher.Value.Heuredebut || activite.Heuredebut > actrechercher.Value.Heurefin && activite.Heurefin > actrechercher.Value.Heuredebut)
+                                if (activite.Heuredebut < actrechercher.Value.Heurefin && activite.Heurefin <= actrechercher.Value.Heuredebut || activite.Heuredebut >= actrechercher.Value.Heurefin && activite.Heurefin > actrechercher.Value.Heuredebut)
                                     idA = actrechercher.Value.Id;
                                 else
                                 {
