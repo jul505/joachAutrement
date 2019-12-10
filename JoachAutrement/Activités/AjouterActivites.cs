@@ -311,7 +311,7 @@ namespace JoachAutrement.Activités
                             else
                             {
                                 Controleur.modifierAnime(idActivite, idIntervenant);
-                                Controleur.modifierActivite(idActivite, idDate, idType, heureDebut, heureFin, libelle, nbrPlaces, salle, description, code, entete, publ);
+                                Controleur.modifierActivite(idActivite, idDate, idType, heureDebut, heureFin, libelle, nbrPlaces, salle, description, entete, publ);
                                 this.Close();
                             }
 
